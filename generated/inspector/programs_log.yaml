@@ -1,0 +1,1072 @@
+- program_created:
+    id: 1
+    timestamp_ns: 1791984382855849815
+- program_compile_started:
+    id: 1
+    timestamp_ns: 1791984382856821319
+- program_kernel_compile_finished:
+    id: 1
+    timestamp_ns: 1791984382857096341
+    duration_ns: 275022
+    watcher_kernel_id: 3
+    name: cq_dispatch_subordinate
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/cq_dispatch_subordinate/2835768394939131613/
+    source: tt_metal/impl/dispatch/kernels/cq_dispatch_subordinate.cpp
+- program_kernel_compile_finished:
+    id: 1
+    timestamp_ns: 1791984382857154461
+    duration_ns: 333142
+    watcher_kernel_id: 1
+    name: cq_prefetch
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/cq_prefetch/8431113503912935548/
+    source: tt_metal/impl/dispatch/kernels/cq_prefetch.cpp
+- program_kernel_compile_finished:
+    id: 1
+    timestamp_ns: 1791984382857218701
+    duration_ns: 397382
+    watcher_kernel_id: 2
+    name: cq_dispatch
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/cq_dispatch/12376792864804560218/
+    source: tt_metal/impl/dispatch/kernels/cq_dispatch.cpp
+- program_compile_finished:
+    id: 1
+    timestamp_ns: 1791984382857301521
+    duration_ns: 480202
+- program_created:
+    id: 2
+    timestamp_ns: 1791984383052811592
+- program_created:
+    id: 3
+    timestamp_ns: 1791984383053996577
+- program_destroyed:
+    id: 3
+    timestamp_ns: 1791984383054008187
+- program_compile_started:
+    id: 2
+    timestamp_ns: 1791984383054071668
+- program_kernel_compile_finished:
+    id: 2
+    timestamp_ns: 1791984383661236349
+    duration_ns: 607164681
+    watcher_kernel_id: 5
+    name: writer_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_interleaved_start_id/9461552693213660925/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 2
+    timestamp_ns: 1791984383745644166
+    duration_ns: 691572498
+    watcher_kernel_id: 4
+    name: reader_unary_pad_dims_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_pad_dims_split_rows_multicore/9796605996725647654/
+    source: ttnn/cpp/ttnn/operations/data_movement/tilize_with_val_padding/device/kernels/dataflow/reader_unary_pad_dims_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 2
+    timestamp_ns: 1791984383780473677
+    duration_ns: 726402009
+    watcher_kernel_id: 6
+    name: tilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/tilize/16012380063114128276/
+    source: ttnn/cpp/ttnn/kernel/compute/tilize.cpp
+- program_compile_finished:
+    id: 2
+    timestamp_ns: 1791984383780568138
+    duration_ns: 726496470
+- program_created:
+    id: 4
+    timestamp_ns: 1791984383781972764
+- program_created:
+    id: 5
+    timestamp_ns: 1791984383782568627
+- program_destroyed:
+    id: 5
+    timestamp_ns: 1791984383782578877
+- program_compile_started:
+    id: 4
+    timestamp_ns: 1791984383782621637
+- program_kernel_compile_finished:
+    id: 4
+    timestamp_ns: 1791984384398220795
+    duration_ns: 615599158
+    watcher_kernel_id: 7
+    name: reader_unary
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary/7402256004397976513/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary.cpp
+- program_kernel_compile_finished:
+    id: 4
+    timestamp_ns: 1791984384418508093
+    duration_ns: 635886456
+    watcher_kernel_id: 8
+    name: writer_unary
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary/3482494724806947560/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary.cpp
+- program_kernel_compile_finished:
+    id: 4
+    timestamp_ns: 1791984385157810978
+    duration_ns: 1375189341
+    watcher_kernel_id: 9
+    name: eltwise_sfpu
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/eltwise_sfpu/5006902945120023393/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/compute/eltwise_sfpu.cpp
+- program_compile_finished:
+    id: 4
+    timestamp_ns: 1791984385157925739
+    duration_ns: 1375304102
+- program_created:
+    id: 6
+    timestamp_ns: 1791984385280736523
+- program_created:
+    id: 7
+    timestamp_ns: 1791984385281205175
+- program_destroyed:
+    id: 7
+    timestamp_ns: 1791984385281215265
+- program_compile_started:
+    id: 6
+    timestamp_ns: 1791984385281253355
+- program_kernel_compile_finished:
+    id: 6
+    timestamp_ns: 1791984385872460596
+    duration_ns: 591207241
+    watcher_kernel_id: 10
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/1194534967395686221/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 6
+    timestamp_ns: 1791984385930008547
+    duration_ns: 648755192
+    watcher_kernel_id: 11
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/277976376599712623/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 6
+    timestamp_ns: 1791984386181404520
+    duration_ns: 900151165
+    watcher_kernel_id: 12
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/17013562637306213472/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_compile_finished:
+    id: 6
+    timestamp_ns: 1791984386181532820
+    duration_ns: 900279465
+- program_created:
+    id: 8
+    timestamp_ns: 1791984386182412604
+- program_created:
+    id: 9
+    timestamp_ns: 1791984386182773006
+- program_destroyed:
+    id: 9
+    timestamp_ns: 1791984386182787166
+- program_compile_started:
+    id: 8
+    timestamp_ns: 1791984386182817306
+- program_kernel_compile_finished:
+    id: 8
+    timestamp_ns: 1791984386183012147
+    duration_ns: 194841
+    watcher_kernel_id: 14
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/277976376599712623/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 8
+    timestamp_ns: 1791984386183102527
+    duration_ns: 285221
+    watcher_kernel_id: 13
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/1194534967395686221/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 8
+    timestamp_ns: 1791984386183155928
+    duration_ns: 338622
+    watcher_kernel_id: 15
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/17013562637306213472/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_compile_finished:
+    id: 8
+    timestamp_ns: 1791984386183224238
+    duration_ns: 406932
+- program_created:
+    id: 10
+    timestamp_ns: 1791984386183611680
+- program_created:
+    id: 11
+    timestamp_ns: 1791984386183961701
+- program_destroyed:
+    id: 11
+    timestamp_ns: 1791984386183976001
+- program_compile_started:
+    id: 10
+    timestamp_ns: 1791984386184021831
+- program_kernel_compile_finished:
+    id: 10
+    timestamp_ns: 1791984386897755655
+    duration_ns: 713733824
+    watcher_kernel_id: 16
+    name: repeat_last_dim_rm_interleaved
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/repeat_last_dim_rm_interleaved/4927041853300071172/
+    source: ttnn/cpp/ttnn/operations/data_movement/repeat/device/kernels/repeat_last_dim_rm_interleaved.cpp
+- program_compile_finished:
+    id: 10
+    timestamp_ns: 1791984386897875985
+    duration_ns: 713854154
+- program_created:
+    id: 12
+    timestamp_ns: 1791984386898590999
+- program_created:
+    id: 13
+    timestamp_ns: 1791984386898917230
+- program_destroyed:
+    id: 13
+    timestamp_ns: 1791984386898932860
+- program_compile_started:
+    id: 12
+    timestamp_ns: 1791984386898961180
+- program_kernel_compile_finished:
+    id: 12
+    timestamp_ns: 1791984386899156761
+    duration_ns: 195581
+    watcher_kernel_id: 19
+    name: tilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/tilize/16012380063114128276/
+    source: ttnn/cpp/ttnn/kernel/compute/tilize.cpp
+- program_kernel_compile_finished:
+    id: 12
+    timestamp_ns: 1791984386899212851
+    duration_ns: 251671
+    watcher_kernel_id: 18
+    name: writer_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_interleaved_start_id/9461552693213660925/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 12
+    timestamp_ns: 1791984387591811073
+    duration_ns: 692849893
+    watcher_kernel_id: 17
+    name: reader_unary_pad_dims_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_pad_dims_split_rows_multicore/6778494228982013852/
+    source: ttnn/cpp/ttnn/operations/data_movement/tilize_with_val_padding/device/kernels/dataflow/reader_unary_pad_dims_split_rows_multicore.cpp
+- program_compile_finished:
+    id: 12
+    timestamp_ns: 1791984387591927503
+    duration_ns: 692966323
+- program_created:
+    id: 14
+    timestamp_ns: 1791984387666038845
+- program_created:
+    id: 15
+    timestamp_ns: 1791984387666340317
+- program_destroyed:
+    id: 15
+    timestamp_ns: 1791984387666350687
+- program_compile_started:
+    id: 14
+    timestamp_ns: 1791984387666372997
+- program_kernel_compile_finished:
+    id: 14
+    timestamp_ns: 1791984387666694778
+    duration_ns: 321781
+    watcher_kernel_id: 20
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/1194534967395686221/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 14
+    timestamp_ns: 1791984387666760278
+    duration_ns: 387281
+    watcher_kernel_id: 22
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/17013562637306213472/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_kernel_compile_finished:
+    id: 14
+    timestamp_ns: 1791984388341381261
+    duration_ns: 675008264
+    watcher_kernel_id: 21
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/3418094819398724097/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_compile_finished:
+    id: 14
+    timestamp_ns: 1791984388341496982
+    duration_ns: 675123985
+- program_created:
+    id: 16
+    timestamp_ns: 1791984388342737867
+- program_created:
+    id: 17
+    timestamp_ns: 1791984388343764932
+- program_destroyed:
+    id: 17
+    timestamp_ns: 1791984388343780802
+- program_compile_started:
+    id: 16
+    timestamp_ns: 1791984388343834062
+- program_kernel_compile_finished:
+    id: 16
+    timestamp_ns: 1791984389020593184
+    duration_ns: 676759122
+    watcher_kernel_id: 24
+    name: writer_interleaved_no_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_interleaved_no_bcast/8413701134834700382/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/writer_interleaved_no_bcast.cpp
+- program_kernel_compile_finished:
+    id: 16
+    timestamp_ns: 1791984389024276640
+    duration_ns: 680442578
+    watcher_kernel_id: 23
+    name: reader_interleaved_scalar_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_interleaved_scalar_bcast/7811953257363691213/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_scalar_bcast.cpp
+- program_kernel_compile_finished:
+    id: 16
+    timestamp_ns: 1791984389523998913
+    duration_ns: 1180164851
+    watcher_kernel_id: 25
+    name: eltwise_binary_sfpu_scalar_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/eltwise_binary_sfpu_scalar_bcast/8981050381578358145/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/compute/eltwise_binary_sfpu_scalar_bcast.cpp
+- program_compile_finished:
+    id: 16
+    timestamp_ns: 1791984389524090263
+    duration_ns: 1180256201
+- program_created:
+    id: 18
+    timestamp_ns: 1791984389718110537
+- program_created:
+    id: 19
+    timestamp_ns: 1791984389718372118
+- program_destroyed:
+    id: 19
+    timestamp_ns: 1791984389718380398
+- program_compile_started:
+    id: 18
+    timestamp_ns: 1791984389718406738
+- program_kernel_compile_finished:
+    id: 18
+    timestamp_ns: 1791984390310900513
+    duration_ns: 592493775
+    watcher_kernel_id: 26
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/10787794055860734815/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 18
+    timestamp_ns: 1791984390374330039
+    duration_ns: 655923301
+    watcher_kernel_id: 27
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/5506026059498451518/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 18
+    timestamp_ns: 1791984390579832312
+    duration_ns: 861425574
+    watcher_kernel_id: 28
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/14388559256143711774/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_compile_finished:
+    id: 18
+    timestamp_ns: 1791984390579907732
+    duration_ns: 861500994
+- program_created:
+    id: 20
+    timestamp_ns: 1791984390580666126
+- program_created:
+    id: 21
+    timestamp_ns: 1791984390580991187
+- program_destroyed:
+    id: 21
+    timestamp_ns: 1791984390581004737
+- program_compile_started:
+    id: 20
+    timestamp_ns: 1791984390581036467
+- program_kernel_compile_finished:
+    id: 20
+    timestamp_ns: 1791984391168069049
+    duration_ns: 587032582
+    watcher_kernel_id: 30
+    name: writer_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_interleaved_start_id/18146950930126986662/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 20
+    timestamp_ns: 1791984391252820417
+    duration_ns: 671783950
+    watcher_kernel_id: 29
+    name: reader_unary_pad_dims_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_pad_dims_split_rows_multicore/18028707280945282862/
+    source: ttnn/cpp/ttnn/operations/data_movement/tilize_with_val_padding/device/kernels/dataflow/reader_unary_pad_dims_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 20
+    timestamp_ns: 1791984391312158355
+    duration_ns: 731121888
+    watcher_kernel_id: 31
+    name: tilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/tilize/12513195814827924131/
+    source: ttnn/cpp/ttnn/kernel/compute/tilize.cpp
+- program_compile_finished:
+    id: 20
+    timestamp_ns: 1791984391312210485
+    duration_ns: 731174018
+- program_created:
+    id: 22
+    timestamp_ns: 1791984391312919628
+- program_created:
+    id: 23
+    timestamp_ns: 1791984391313193959
+- program_destroyed:
+    id: 23
+    timestamp_ns: 1791984391313204449
+- program_compile_started:
+    id: 22
+    timestamp_ns: 1791984391313234610
+- program_kernel_compile_finished:
+    id: 22
+    timestamp_ns: 1791984391948709161
+    duration_ns: 635474551
+    watcher_kernel_id: 32
+    name: reader_reshape_tiled
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_reshape_tiled/16705462006903441534/
+    source: ttnn/cpp/ttnn/operations/data_movement/reshape_view/device/device/dataflow/reader_reshape_tiled.cpp
+- program_kernel_compile_finished:
+    id: 22
+    timestamp_ns: 1791984391984876549
+    duration_ns: 671641939
+    watcher_kernel_id: 33
+    name: writer_reshape_tiled
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_reshape_tiled/17733946174664423956/
+    source: ttnn/cpp/ttnn/operations/data_movement/reshape_view/device/device/dataflow/writer_reshape_tiled.cpp
+- program_compile_finished:
+    id: 22
+    timestamp_ns: 1791984391984927739
+    duration_ns: 671693129
+- program_created:
+    id: 24
+    timestamp_ns: 1791984392027751865
+- program_created:
+    id: 25
+    timestamp_ns: 1791984392027998486
+- program_destroyed:
+    id: 25
+    timestamp_ns: 1791984392028007046
+- program_compile_started:
+    id: 24
+    timestamp_ns: 1791984392028030326
+- program_kernel_compile_finished:
+    id: 24
+    timestamp_ns: 1791984392028226367
+    duration_ns: 196041
+    watcher_kernel_id: 34
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/10787794055860734815/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 24
+    timestamp_ns: 1791984392028260537
+    duration_ns: 230211
+    watcher_kernel_id: 36
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/14388559256143711774/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_kernel_compile_finished:
+    id: 24
+    timestamp_ns: 1791984392723152007
+    duration_ns: 695121681
+    watcher_kernel_id: 35
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/1069750426288114838/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_compile_finished:
+    id: 24
+    timestamp_ns: 1791984392723233977
+    duration_ns: 695203651
+- program_created:
+    id: 26
+    timestamp_ns: 1791984392723953140
+- program_created:
+    id: 27
+    timestamp_ns: 1791984392724211511
+- program_destroyed:
+    id: 27
+    timestamp_ns: 1791984392724219731
+- program_compile_started:
+    id: 26
+    timestamp_ns: 1791984392724238991
+- program_kernel_compile_finished:
+    id: 26
+    timestamp_ns: 1791984392724416462
+    duration_ns: 177471
+    watcher_kernel_id: 38
+    name: writer_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_interleaved_start_id/18146950930126986662/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 26
+    timestamp_ns: 1791984392724462032
+    duration_ns: 223041
+    watcher_kernel_id: 39
+    name: tilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/tilize/12513195814827924131/
+    source: ttnn/cpp/ttnn/kernel/compute/tilize.cpp
+- program_kernel_compile_finished:
+    id: 26
+    timestamp_ns: 1791984393399299595
+    duration_ns: 675060604
+    watcher_kernel_id: 37
+    name: reader_unary_pad_dims_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_pad_dims_split_rows_multicore/2167878277089691598/
+    source: ttnn/cpp/ttnn/operations/data_movement/tilize_with_val_padding/device/kernels/dataflow/reader_unary_pad_dims_split_rows_multicore.cpp
+- program_compile_finished:
+    id: 26
+    timestamp_ns: 1791984393399368575
+    duration_ns: 675129584
+- program_created:
+    id: 28
+    timestamp_ns: 1791984393400079338
+- program_created:
+    id: 29
+    timestamp_ns: 1791984393400423320
+- program_destroyed:
+    id: 29
+    timestamp_ns: 1791984393400437410
+- program_compile_started:
+    id: 28
+    timestamp_ns: 1791984393400471090
+- program_kernel_compile_finished:
+    id: 28
+    timestamp_ns: 1791984393400591640
+    duration_ns: 120550
+    watcher_kernel_id: 41
+    name: writer_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_interleaved_start_id/18146950930126986662/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 28
+    timestamp_ns: 1791984393400658471
+    duration_ns: 187381
+    watcher_kernel_id: 42
+    name: tilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/tilize/12513195814827924131/
+    source: ttnn/cpp/ttnn/kernel/compute/tilize.cpp
+- program_kernel_compile_finished:
+    id: 28
+    timestamp_ns: 1791984393400838481
+    duration_ns: 367391
+    watcher_kernel_id: 40
+    name: reader_unary_pad_dims_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_pad_dims_split_rows_multicore/2167878277089691598/
+    source: ttnn/cpp/ttnn/operations/data_movement/tilize_with_val_padding/device/kernels/dataflow/reader_unary_pad_dims_split_rows_multicore.cpp
+- program_compile_finished:
+    id: 28
+    timestamp_ns: 1791984393400911522
+    duration_ns: 440432
+- program_created:
+    id: 30
+    timestamp_ns: 1791984393401395234
+- program_created:
+    id: 31
+    timestamp_ns: 1791984393402230058
+- program_destroyed:
+    id: 31
+    timestamp_ns: 1791984393402243198
+- program_compile_started:
+    id: 30
+    timestamp_ns: 1791984393402288218
+- program_kernel_compile_finished:
+    id: 30
+    timestamp_ns: 1791984394061851473
+    duration_ns: 659563255
+    watcher_kernel_id: 44
+    name: writer_interleaved_no_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_interleaved_no_bcast/10938911398550176751/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/writer_interleaved_no_bcast.cpp
+- program_kernel_compile_finished:
+    id: 30
+    timestamp_ns: 1791984394065199838
+    duration_ns: 662911620
+    watcher_kernel_id: 43
+    name: reader_interleaved_scalar_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_interleaved_scalar_bcast/7696066685564405289/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_scalar_bcast.cpp
+- program_kernel_compile_finished:
+    id: 30
+    timestamp_ns: 1791984394659721291
+    duration_ns: 1257433073
+    watcher_kernel_id: 45
+    name: eltwise_binary_sfpu_scalar_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/eltwise_binary_sfpu_scalar_bcast/15852107421156022517/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/compute/eltwise_binary_sfpu_scalar_bcast.cpp
+- program_compile_finished:
+    id: 30
+    timestamp_ns: 1791984394659787731
+    duration_ns: 1257499513
+- program_created:
+    id: 32
+    timestamp_ns: 1791984394719070319
+- program_created:
+    id: 33
+    timestamp_ns: 1791984394719380930
+- program_destroyed:
+    id: 33
+    timestamp_ns: 1791984394719391750
+- program_compile_started:
+    id: 32
+    timestamp_ns: 1791984394719421150
+- program_kernel_compile_finished:
+    id: 32
+    timestamp_ns: 1791984395332335623
+    duration_ns: 612914473
+    watcher_kernel_id: 46
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/11853338278816183429/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 32
+    timestamp_ns: 1791984395399097253
+    duration_ns: 679676103
+    watcher_kernel_id: 47
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/6498710899109981509/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 32
+    timestamp_ns: 1791984395593382147
+    duration_ns: 873960997
+    watcher_kernel_id: 48
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/11407392110342511763/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_compile_finished:
+    id: 32
+    timestamp_ns: 1791984395593505567
+    duration_ns: 874084417
+- program_created:
+    id: 34
+    timestamp_ns: 1791984395594674132
+- program_created:
+    id: 35
+    timestamp_ns: 1791984395595052714
+- program_destroyed:
+    id: 35
+    timestamp_ns: 1791984395595068934
+- program_compile_started:
+    id: 34
+    timestamp_ns: 1791984395595097804
+- program_kernel_compile_finished:
+    id: 34
+    timestamp_ns: 1791984396217339637
+    duration_ns: 622241833
+    watcher_kernel_id: 50
+    name: writer_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_interleaved_start_id/2472165665084198698/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 34
+    timestamp_ns: 1791984396332848058
+    duration_ns: 737750254
+    watcher_kernel_id: 51
+    name: tilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/tilize/11750251029334353394/
+    source: ttnn/cpp/ttnn/kernel/compute/tilize.cpp
+- program_kernel_compile_finished:
+    id: 34
+    timestamp_ns: 1791984396335685141
+    duration_ns: 740587337
+    watcher_kernel_id: 49
+    name: reader_unary_pad_dims_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_pad_dims_split_rows_multicore/7162202177623709627/
+    source: ttnn/cpp/ttnn/operations/data_movement/tilize_with_val_padding/device/kernels/dataflow/reader_unary_pad_dims_split_rows_multicore.cpp
+- program_compile_finished:
+    id: 34
+    timestamp_ns: 1791984396335784501
+    duration_ns: 740686697
+- program_created:
+    id: 36
+    timestamp_ns: 1791984396336665625
+- program_created:
+    id: 37
+    timestamp_ns: 1791984396337659849
+- program_destroyed:
+    id: 37
+    timestamp_ns: 1791984396337674359
+- program_compile_started:
+    id: 36
+    timestamp_ns: 1791984396337728760
+- program_kernel_compile_finished:
+    id: 36
+    timestamp_ns: 1791984397013903527
+    duration_ns: 676174767
+    watcher_kernel_id: 53
+    name: ternary_writer_nobcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/ternary_writer_nobcast/9112716710689369555/
+    source: ttnn/cpp/ttnn/operations/eltwise/ternary/device/kernels/dataflow/ternary_writer_nobcast.cpp
+- program_kernel_compile_finished:
+    id: 36
+    timestamp_ns: 1791984397108836289
+    duration_ns: 771107529
+    watcher_kernel_id: 52
+    name: ternary_reader_rowbcast_ttt
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/ternary_reader_rowbcast_ttt/16228734129039422450/
+    source: ttnn/cpp/ttnn/operations/eltwise/ternary/device/kernels/dataflow/ternary_reader_rowbcast_ttt.cpp
+- program_kernel_compile_finished:
+    id: 36
+    timestamp_ns: 1791984397177003485
+    duration_ns: 839274725
+    watcher_kernel_id: 54
+    name: ternary_sfpu_no_bcast_ttt
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/ternary_sfpu_no_bcast_ttt/17691714797184127455/
+    source: ttnn/cpp/ttnn/operations/eltwise/ternary/device/kernels/compute/ternary_sfpu_no_bcast_ttt.cpp
+- program_compile_finished:
+    id: 36
+    timestamp_ns: 1791984397177092635
+    duration_ns: 839363875
+- program_created:
+    id: 38
+    timestamp_ns: 1791984397245990824
+- program_created:
+    id: 39
+    timestamp_ns: 1791984397246303146
+- program_destroyed:
+    id: 39
+    timestamp_ns: 1791984397246313706
+- program_compile_started:
+    id: 38
+    timestamp_ns: 1791984397246334416
+- program_kernel_compile_finished:
+    id: 38
+    timestamp_ns: 1791984397246502617
+    duration_ns: 168201
+    watcher_kernel_id: 57
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/17013562637306213472/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_kernel_compile_finished:
+    id: 38
+    timestamp_ns: 1791984397246548587
+    duration_ns: 214171
+    watcher_kernel_id: 56
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/277976376599712623/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 38
+    timestamp_ns: 1791984397246586327
+    duration_ns: 251911
+    watcher_kernel_id: 55
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/1194534967395686221/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_compile_finished:
+    id: 38
+    timestamp_ns: 1791984397246634007
+    duration_ns: 299591
+- program_created:
+    id: 40
+    timestamp_ns: 1791984397246978539
+- program_created:
+    id: 41
+    timestamp_ns: 1791984397247209110
+- program_destroyed:
+    id: 41
+    timestamp_ns: 1791984397247219330
+- program_compile_started:
+    id: 40
+    timestamp_ns: 1791984397247244700
+- program_kernel_compile_finished:
+    id: 40
+    timestamp_ns: 1791984397942428629
+    duration_ns: 695183929
+    watcher_kernel_id: 58
+    name: repeat_higher_dim_rm_interleaved
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/repeat_higher_dim_rm_interleaved/5502341987555580015/
+    source: ttnn/cpp/ttnn/operations/data_movement/repeat/device/kernels/repeat_higher_dim_rm_interleaved.cpp
+- program_compile_finished:
+    id: 40
+    timestamp_ns: 1791984397942533769
+    duration_ns: 695289069
+- program_created:
+    id: 42
+    timestamp_ns: 1791984397943585574
+- program_created:
+    id: 43
+    timestamp_ns: 1791984397943921535
+- program_destroyed:
+    id: 43
+    timestamp_ns: 1791984397943935645
+- program_compile_started:
+    id: 42
+    timestamp_ns: 1791984397943966816
+- program_kernel_compile_finished:
+    id: 42
+    timestamp_ns: 1791984397944166296
+    duration_ns: 199480
+    watcher_kernel_id: 60
+    name: writer_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_interleaved_start_id/9461552693213660925/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 42
+    timestamp_ns: 1791984397944226497
+    duration_ns: 259681
+    watcher_kernel_id: 61
+    name: tilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/tilize/16012380063114128276/
+    source: ttnn/cpp/ttnn/kernel/compute/tilize.cpp
+- program_kernel_compile_finished:
+    id: 42
+    timestamp_ns: 1791984397944312317
+    duration_ns: 345501
+    watcher_kernel_id: 59
+    name: reader_unary_pad_dims_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_pad_dims_split_rows_multicore/6778494228982013852/
+    source: ttnn/cpp/ttnn/operations/data_movement/tilize_with_val_padding/device/kernels/dataflow/reader_unary_pad_dims_split_rows_multicore.cpp
+- program_compile_finished:
+    id: 42
+    timestamp_ns: 1791984397944416308
+    duration_ns: 449492
+- program_created:
+    id: 44
+    timestamp_ns: 1791984398013125406
+- program_created:
+    id: 45
+    timestamp_ns: 1791984398013472618
+- program_destroyed:
+    id: 45
+    timestamp_ns: 1791984398013484978
+- program_compile_started:
+    id: 44
+    timestamp_ns: 1791984398013514658
+- program_kernel_compile_finished:
+    id: 44
+    timestamp_ns: 1791984398013733229
+    duration_ns: 218571
+    watcher_kernel_id: 63
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/277976376599712623/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 44
+    timestamp_ns: 1791984398013789769
+    duration_ns: 275111
+    watcher_kernel_id: 62
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/1194534967395686221/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 44
+    timestamp_ns: 1791984398013843849
+    duration_ns: 329191
+    watcher_kernel_id: 64
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/17013562637306213472/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_compile_finished:
+    id: 44
+    timestamp_ns: 1791984398013927250
+    duration_ns: 412592
+- program_created:
+    id: 46
+    timestamp_ns: 1791984398014227721
+- program_created:
+    id: 47
+    timestamp_ns: 1791984398014415672
+- program_destroyed:
+    id: 47
+    timestamp_ns: 1791984398014424962
+- program_compile_started:
+    id: 46
+    timestamp_ns: 1791984398014443782
+- program_kernel_compile_finished:
+    id: 46
+    timestamp_ns: 1791984398014577613
+    duration_ns: 133831
+    watcher_kernel_id: 66
+    name: writer_unary_stick_layout_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_stick_layout_split_rows_multicore/3418094819398724097/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize_with_unpadding/device/kernels/dataflow/writer_unary_stick_layout_split_rows_multicore.cpp
+- program_kernel_compile_finished:
+    id: 46
+    timestamp_ns: 1791984398014630513
+    duration_ns: 186731
+    watcher_kernel_id: 65
+    name: reader_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_interleaved_start_id/1194534967395686221/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/reader_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 46
+    timestamp_ns: 1791984398014667083
+    duration_ns: 223301
+    watcher_kernel_id: 67
+    name: untilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/untilize/17013562637306213472/
+    source: ttnn/cpp/ttnn/operations/data_movement/untilize/device/kernels/compute/untilize.cpp
+- program_compile_finished:
+    id: 46
+    timestamp_ns: 1791984398014718613
+    duration_ns: 274831
+- program_created:
+    id: 48
+    timestamp_ns: 1791984398014976484
+- program_created:
+    id: 49
+    timestamp_ns: 1791984398015177735
+- program_destroyed:
+    id: 49
+    timestamp_ns: 1791984398015187175
+- program_compile_started:
+    id: 48
+    timestamp_ns: 1791984398015205755
+- program_kernel_compile_finished:
+    id: 48
+    timestamp_ns: 1791984398015401416
+    duration_ns: 195661
+    watcher_kernel_id: 69
+    name: writer_unary_interleaved_start_id
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_unary_interleaved_start_id/9461552693213660925/
+    source: ttnn/cpp/ttnn/operations/eltwise/unary/device/kernels/dataflow/writer_unary_interleaved_start_id.cpp
+- program_kernel_compile_finished:
+    id: 48
+    timestamp_ns: 1791984398015474856
+    duration_ns: 269101
+    watcher_kernel_id: 70
+    name: tilize
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/tilize/16012380063114128276/
+    source: ttnn/cpp/ttnn/kernel/compute/tilize.cpp
+- program_kernel_compile_finished:
+    id: 48
+    timestamp_ns: 1791984398015607337
+    duration_ns: 401582
+    watcher_kernel_id: 68
+    name: reader_unary_pad_dims_split_rows_multicore
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_unary_pad_dims_split_rows_multicore/9796605996725647654/
+    source: ttnn/cpp/ttnn/operations/data_movement/tilize_with_val_padding/device/kernels/dataflow/reader_unary_pad_dims_split_rows_multicore.cpp
+- program_compile_finished:
+    id: 48
+    timestamp_ns: 1791984398015679407
+    duration_ns: 473652
+- program_created:
+    id: 50
+    timestamp_ns: 1791984398016062129
+- program_created:
+    id: 51
+    timestamp_ns: 1791984398016715282
+- program_destroyed:
+    id: 51
+    timestamp_ns: 1791984398016725202
+- program_compile_started:
+    id: 50
+    timestamp_ns: 1791984398016754792
+- program_kernel_compile_finished:
+    id: 50
+    timestamp_ns: 1791984398016974473
+    duration_ns: 219681
+    watcher_kernel_id: 72
+    name: writer_interleaved_no_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/writer_interleaved_no_bcast/8413701134834700382/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/writer_interleaved_no_bcast.cpp
+- program_kernel_compile_finished:
+    id: 50
+    timestamp_ns: 1791984398683431717
+    duration_ns: 666676925
+    watcher_kernel_id: 71
+    name: reader_interleaved_col_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/reader_interleaved_col_bcast/12049940339676492067/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_col_bcast.cpp
+- program_kernel_compile_finished:
+    id: 50
+    timestamp_ns: 1791984399213857610
+    duration_ns: 1197102818
+    watcher_kernel_id: 73
+    name: eltwise_binary_sfpu_col_bcast
+    path: /home/user/.cache/tt-metal-cache/8594746407955848821/kernels/eltwise_binary_sfpu_col_bcast/15083629259930846644/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/compute/eltwise_binary_sfpu_col_bcast.cpp
+- program_compile_finished:
+    id: 50
+    timestamp_ns: 1791984399213957110
+    duration_ns: 1197202318
+- program_destroyed:
+    id: 1
+    timestamp_ns: 1791984399380290862
+- program_destroyed:
+    id: 48
+    timestamp_ns: 1791984399380525603
+- program_destroyed:
+    id: 46
+    timestamp_ns: 1791984399380603614
+- program_destroyed:
+    id: 44
+    timestamp_ns: 1791984399380658094
+- program_destroyed:
+    id: 40
+    timestamp_ns: 1791984399380700304
+- program_destroyed:
+    id: 38
+    timestamp_ns: 1791984399380756104
+- program_destroyed:
+    id: 50
+    timestamp_ns: 1791984399380822685
+- program_destroyed:
+    id: 36
+    timestamp_ns: 1791984399380921035
+- program_destroyed:
+    id: 34
+    timestamp_ns: 1791984399381018966
+- program_destroyed:
+    id: 32
+    timestamp_ns: 1791984399381112216
+- program_destroyed:
+    id: 30
+    timestamp_ns: 1791984399381155446
+- program_destroyed:
+    id: 8
+    timestamp_ns: 1791984399381268867
+- program_destroyed:
+    id: 10
+    timestamp_ns: 1791984399381347237
+- program_destroyed:
+    id: 4
+    timestamp_ns: 1791984399381407207
+- program_destroyed:
+    id: 14
+    timestamp_ns: 1791984399381513548
+- program_destroyed:
+    id: 42
+    timestamp_ns: 1791984399381554708
+- program_destroyed:
+    id: 24
+    timestamp_ns: 1791984399381635508
+- program_destroyed:
+    id: 16
+    timestamp_ns: 1791984399381679689
+- program_destroyed:
+    id: 18
+    timestamp_ns: 1791984399381802259
+- program_destroyed:
+    id: 28
+    timestamp_ns: 1791984399381844699
+- program_destroyed:
+    id: 6
+    timestamp_ns: 1791984399381874859
+- program_destroyed:
+    id: 12
+    timestamp_ns: 1791984399381925310
+- program_destroyed:
+    id: 20
+    timestamp_ns: 1791984399381964270
+- program_destroyed:
+    id: 26
+    timestamp_ns: 1791984399381997560
+- program_destroyed:
+    id: 2
+    timestamp_ns: 1791984399382032310
+- program_destroyed:
+    id: 22
+    timestamp_ns: 1791984399382099740
