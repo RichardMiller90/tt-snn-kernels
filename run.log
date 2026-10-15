@@ -11,3 +11,42 @@ WARNING:2026-10-15 15:10:17,934:jax._src.xla_bridge:893: Platform 'tt' is experi
 2026-10-15 15:10:18.033 | info     |             UMD | Cluster constructor completed. (cluster.cpp:544)
 2026-10-15 15:10:18.034 | info     |             UMD | Starting devices in cluster (cluster.cpp:1048)
 2026-10-15 15:10:19.034 | warning  |             UMD | Waiting for lock 'CHIP_IN_USE_5_PCIe' which is currently held by thread TID: 150882, PID: 150882 (robust_mutex.cpp:476)
+2026-10-15 15:17:50.090 | info     |             UMD | Starting devices in cluster completed. (cluster.cpp:1056)
+2026-10-15 15:17:50.201 | info     |     Distributed | Using auto discovery to generate mesh graph. (metal_env.cpp:405)
+2026-10-15 15:17:50.201 | info     |     Distributed | Constructing control plane using auto-discovery (no mesh graph descriptor). (metal_env.cpp:467)
+2026-10-15 15:17:50.201 | warning  |          Always | Unknown motherboard 'H12DSG-O-CPU' for chip_id=0 (bus_id=0xc1) — falling back to bus_id as tray_id. Add this motherboard and its bus IDs to mobo_to_bus_ids in physical_system_discovery.cpp. (physical_system_discovery.cpp:112)
+2026-10-15 15:17:50.202 | info     |          Fabric | Logical multi-mesh adjacency: intermesh degree histogram {0:1}; intra-mesh degree histograms mesh0 {0:1} (topology_mapper_utils.cpp:2452)
+2026-10-15 15:17:50.202 | info     |          Fabric | Physical multi-mesh adjacency: intermesh degree histogram {0:1}; intra-mesh degree histograms mesh0 {0:1} (topology_mapper_utils.cpp:2460)
+2026-10-15 15:17:50.212 | info     |    BuildKernels | Using pre-compiled firmware from: /home/user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/pre-compiled/8594746407955848821/ (build_env_manager.cpp:347)
+2026-10-15 15:17:50.219 | warning  |           Metal | Dispatch telemetry SMC buffer is unavailable (dispatch_telemetry.cpp:53)
+2026-10-15 15:17:50.220 | warning  |           Metal | Dispatch telemetry SMC buffer is unavailable (dispatch_telemetry.cpp:53)
+2026-10-15 15:17:50.275 | warning  |           Metal | Dispatch telemetry SMC buffer is unavailable (dispatch_telemetry.cpp:53)
+2026-10-15 15:17:50.285 | info     |    BuildKernels | Using pre-compiled firmware from: /home/user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/pjrt_plugin_tt/tt-metal/tt_metal/pre-compiled/8594746407955848821/ (build_env_manager.cpp:347)
+2026-10-15 15:17:50.293 | warning  |           Metal | Dispatch telemetry SMC buffer is unavailable (dispatch_telemetry.cpp:53)
+2026-10-15 15:17:50.293 | warning  |           Metal | Dispatch telemetry SMC buffer is unavailable (dispatch_telemetry.cpp:53)
+2026-10-15 15:17:50.322 | info     |           Metal | Enabling program cache on MeshDevice 1 (mesh_device.cpp:1061)
+2026-10-15 15:17:50.555 | warning  |              Op | On Wormhole with fp32 accumulation, output accuracy can be worse with HiFi4 than HiFi3 due to a hardware bug. Prefer using HiFi3 with fp32 accumulation on Wormhole. (compute_kernel_config.cpp:66)
+loc("jit(run_sequence)/while"(callsite("run_sequence"("/home/user/tt-snn-kernels/phase1_spike_op_test.py":40:11 to :40) at "<module>"("/home/user/tt-snn-kernels/phase1_spike_op_test.py":47:12 to :43)))): error: failed to legalize operation 'stablehlo.while'
+2026-10-15 15:17:51.303 ( 453.407s) [        9A28AB80]      module_builder.cc:839    ERR| Failed to convert from SHLO to TTIR module
+[[32. 32. 32. ... 32. 32. 32.]
+ [32. 32. 32. ... 32. 32. 32.]
+ [32. 32. 32. ... 32. 32. 32.]
+ ...
+ [32. 32. 32. ... 32. 32. 32.]
+ [32. 32. 32. ... 32. 32. 32.]
+ [32. 32. 32. ... 32. 32. 32.]]
+Traceback (most recent call last):
+  File "/home/user/tt-snn-kernels/phase1_spike_op_test.py", line 47, in <module>
+    _, spikes = run_sequence(params, v0, I_seq)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jaxlib._jax.XlaRuntimeError: INTERNAL: Error code: 13
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.
+2026-10-15 15:17:51.425 | warning  |           Metal | Dispatch telemetry SMC buffer is unavailable (dispatch_telemetry.cpp:53)
+2026-10-15 15:17:51.448 | info     |    BuildKernels | JIT cache stats: 78/78 hits (100.0%) [78 cached, 35 build-once dedup, 0 merged artifacts, 0 merged genfiles] (build_cache_telemetry.cpp:207)
+2026-10-15 15:17:51.448 | info     |    BuildKernels | JIT telemetry: 3 registered TelemetryTokens (build_cache_telemetry.cpp:230)
+2026-10-15 15:17:51.450 | info     |          Device | Closing user mode device drivers (tt_cluster.cpp:513)
+2026-10-15 15:17:51.450 | info     |             UMD | Closing devices in cluster (cluster.cpp:1061)
+2026-10-15 15:17:51.454 | info     |             UMD | Closing devices in cluster completed. (cluster.cpp:1070)
+2026-10-15 15:17:51.454 | info     |             UMD | Cluster destructor started. (cluster.cpp:778)
+2026-10-15 15:17:51.454 | info     |             UMD | Cluster destructor completed. (cluster.cpp:781)
