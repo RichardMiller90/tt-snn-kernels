@@ -1,0 +1,13 @@
+WARNING:2026-10-15 15:10:17,934:jax._src.xla_bridge:893: Platform 'tt' is experimental and not all JAX functionality may be correctly supported!
+2026-10-15 15:10:17.938 | info     |          Device | Opening user mode device driver (tt_cluster.cpp:228)
+2026-10-15 15:10:17.938 | info     |             UMD | Cluster constructor started. (cluster.cpp:348)
+2026-10-15 15:10:17.938 | info     |             UMD | Creating TopologyDiscovery for architecture: wormhole_b0 (topology_discovery.cpp:95)
+2026-10-15 15:10:17.938 | info     |             UMD | Starting topology discovery. (topology_discovery.cpp:114)
+2026-10-15 15:10:17.940 | info     |             UMD | Established firmware bundle version: 19.11.0 (topology_discovery.cpp:574)
+2026-10-15 15:10:17.940 | info     |             UMD | Completed topology discovery. (topology_discovery.cpp:118)
+2026-10-15 15:10:18.033 | info     |             UMD | Opening local chip ids/PCIe ids: {0}/[5] and remote chip ids {} (cluster.cpp:168)
+2026-10-15 15:10:18.033 | info     |             UMD | IOMMU: disabled (cluster.cpp:142)
+2026-10-15 15:10:18.033 | info     |             UMD | KMD version: 2.3.0 (cluster.cpp:145)
+2026-10-15 15:10:18.033 | info     |             UMD | Cluster constructor completed. (cluster.cpp:544)
+2026-10-15 15:10:18.034 | info     |             UMD | Starting devices in cluster (cluster.cpp:1048)
+2026-10-15 15:10:19.034 | warning  |             UMD | Waiting for lock 'CHIP_IN_USE_5_PCIe' which is currently held by thread TID: 150882, PID: 150882 (robust_mutex.cpp:476)

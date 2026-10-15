@@ -1,9 +1,9 @@
 import pjrt_plugin_tt
-import jax
-import jax.numpy as jnp
+import jax, jax.numpy as jnp
 
 tt_device = jax.devices('tt')[0]
-print("Targeting:", tt_device)
+x = jax.device_put(jnp.ones((32, 32)), tt_device)
+print(jax.jit(lambda a: a @ a)(x))
 
 # --- Reuse the Phase 0 spike primitive unchanged, it's already validated ---
 
