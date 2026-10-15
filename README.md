@@ -10,12 +10,19 @@ Spiking neurons communicate with binary events, so their activations are often s
 
 The kernels support ongoing research on a hybrid spiking state-space model with a thin attention block.
 
+## Approach
+
+Neurons are assigned by layer:
+
+- **Early (feature) layers: PLIF.** A learnable membrane decay is enough for local features.
+- **Deeper (temporal) layers: ALIF.** A threshold that adapts to recent spiking gives longer, history-dependent timescales.
+
 ## Planned kernels
 
 | Kernel | What it computes | Status |
 |---|---|---|
-| Spiking neuron (LIF, PLIF) | Membrane update, threshold, and reset over time steps | Planned |
-| Adaptive-threshold neuron (ALIF, PALIF) | Neuron update with a spike-history-driven threshold | Planned |
+| PLIF neuron (early layers) | Membrane update, threshold, and reset over time steps | Planned |
+| ALIF neuron (deeper layers) | Neuron update with a spike-history-driven threshold | Planned |
 | Diagonal SSM recurrence | Linear state-space scan over a sequence | Planned |
 | Spike readout | Projection of binary spikes, accumulate only | Planned |
 
@@ -24,16 +31,14 @@ The kernels support ongoing research on a hybrid spiking state-space model with 
 Reference equations the kernels are meant to implement. Per channel, with input current `I_t`:
 
 ```
-a_t     = rho * a_(t-1) + s_(t-1)                          # adaptation trace (ALIF, PALIF)
-theta_t = theta0 + beta * a_t                              # firing threshold (beta = 0 for LIF, PLIF)
+a_t     = rho * a_(t-1) + s_(t-1)                          # adaptation trace (ALIF only)
+theta_t = theta0 + beta * a_t                              # firing threshold (beta = 0 for PLIF)
 u_t     = alpha * u_(t-1) + I_t - theta_(t-1) * s_(t-1)    # leak plus soft reset
 s_t     = 1 if u_t > theta_t else 0                        # spike
 ```
 
-- **LIF:** fixed decay `alpha`, fixed threshold.
-- **PLIF:** learnable decay `alpha`.
-- **ALIF:** fixed decay, adaptive threshold.
-- **PALIF:** learnable decay and adaptive threshold.
+- **PLIF:** `alpha` is a learnable per-channel decay, and the threshold is fixed (`beta = 0`).
+- **ALIF:** `alpha` is fixed, and the threshold adapts through `rho` and `beta`.
 
 ## Targets
 
@@ -43,7 +48,3 @@ s_t     = 1 if u_t > theta_t else 0                        # spike
 ## Getting started
 
 You need a Tenstorrent device and a working TT-Metalium installation. Follow the official TT-Metalium documentation to set it up. Build and run instructions for this repository will be added with the first kernel.
-
-## Disclaimer
-
-Independent project, not affiliated with or endorsed by Tenstorrent.
