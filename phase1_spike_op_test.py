@@ -1,3 +1,4 @@
+import pjrt_plugin_tt
 import jax
 import jax.numpy as jnp
 
